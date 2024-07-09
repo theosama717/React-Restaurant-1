@@ -1,0 +1,12 @@
+.card-con {
+    margin-top: 4em !important;
+    margin-bottom: 6em !important;
+}
+
+@media all and (min-width: 850px) {
+    .card-con {
+        display: flex; 
+        align-items: center;
+        gap: 2em;
+    }
+}

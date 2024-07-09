@@ -1,0 +1,27 @@
+.menu {
+
+    margin-bottom: 4em;
+    text-align: center;
+
+    > .green-tag {
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+
+    > h2 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin-bottom: 2em;
+    }
+
+
+    .menuitem-con {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 200px));
+        gap: 2em;
+        max-width: 800px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
